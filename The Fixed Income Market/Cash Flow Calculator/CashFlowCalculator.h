@@ -5,7 +5,7 @@
 
 class CashFlowCalculator {
 public:
-    CashFlowCalculator(double);
+    explicit CashFlowCalculator(double);
     CashFlowCalculator(const CashFlowCalculator &);
     CashFlowCalculator &operator=(const CashFlowCalculator &);
     ~CashFlowCalculator();
