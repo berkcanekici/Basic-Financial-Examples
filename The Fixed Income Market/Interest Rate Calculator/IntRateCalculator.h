@@ -5,7 +5,7 @@
 
 class IntRateCalculator {
 public:
-    IntRateCalculator(double); 
+    explicit IntRateCalculator(double); 
     IntRateCalculator(const IntRateCalculator &);
     IntRateCalculator &operator=(const IntRateCalculator &);
     ~IntRateCalculator();
